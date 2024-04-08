@@ -1,0 +1,59 @@
+body {
+  font-family: Verdana;
+}
+
+.start {
+  color: lavenderblush;
+  background: #310047;
+  border-color: #310047;
+  border-width: 20px;
+  border-style: solid;
+  border-radius: 0px 15px 15px 0px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nav {
+  background: pink;
+  border-color: purple;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  position: fixed;
+  display: inline-block;
+  top: 15px;
+  right: 15px;
+}
+
+ul {
+  display: none;
+  position: absolute;
+  right: 2%;
+  top: 40px;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px 10px 25px;
+  z-index: 1;
+}
+
+.nav:hover ul {
+  display: block;
+}
+
+.intro {
+  background-image: linear-gradient(to right, #9400a5, #e580f0);
+  color: lavenderblush;
+  border-style: solid;
+  border-radius: 0px 15px 15px 0px;
+  padding: 10px 10px 10px 10px;
+  max-width: 540px;
+}
+
+.ot6-picture {
+  width: 100%;
+  max-width: 540px;
+}
